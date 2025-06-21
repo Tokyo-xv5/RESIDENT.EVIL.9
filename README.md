@@ -1,10 +1,46 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta name="google-site-verification" content="nQczT1To5lV6b6zAtBkl63hyPUHKiFj9vLGiQDSqXQA" />
+    <!-- بيانات التعريف الأساسية -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resident Evil 9 - رزدنت إيفل 9</title>
+    <title>Resident Evil 9 - رزدنت إيفل 9: تاريخ الإصدار، القصة، الشخصيات، وأحدث الأخبار</title>
+    <meta name="description" content="الموقع العربي الرسمي لـ Resident Evil 9 (رزدنت إيفل 9). تعرف على موعد النزول، قصة اللعبة، أبرز الشخصيات، مشاهدة التريلر، ومتطلبات التشغيل للـ PS5 و Xbox Series X و PC.">
+    <meta name="keywords" content="رزدنت إيفل 9, Resident Evil 9, تاريخ الإصدار, تريلر, قصة, شخصيات, PS5, Xbox Series X, PC, كابكوم, رعب, ألعاب">
+    
+    <!-- تحقق جوجل -->
+    <meta name="google-site-verification" content="nQczT1To5lV6b6zAtBkl63hyPUHKiFj9vLGiQDSqXQA" />
+    
+    <!-- بيانات منظمة (Schema) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "VideoGame",
+        "name": "Resident Evil 9",
+        "alternateName": "رزدنت إيفل 9",
+        "description": "الجزء التاسع من سلسلة ألعاب الرعب والبقاء الشهيرة من كابكوم",
+        "genre": ["رعب", "بقاء", "أكشن"],
+        "gamePlatform": ["PlayStation 5", "Xbox Series X", "PC"],
+        "image": "https://i.ytimg.com/vi/tcHrSdnUKaE/maxresdefault.jpg",
+        "developer": {
+            "@type": "Organization",
+            "name": "Capcom"
+        },
+        "releaseDate": "2024-11-03"
+    }
+    </script>
+    
+    <!-- روابط كانونيكال -->
+    <link rel="canonical" href="https://www.example.com/resident-evil-9" />
+    
+    <!-- أيقونات متصفح -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <!-- خطوط وأيقونات -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
     <style>
         /* CSS عام */
         * {
@@ -12,6 +48,7 @@
             padding: 0;
             box-sizing: border-box;
             font-family: 'Tajawal', Arial, sans-serif;
+            -webkit-tap-highlight-color: transparent;
         }
         
         body {
@@ -21,6 +58,7 @@
             background-size: cover;
             background-attachment: fixed;
             background-position: center;
+            overflow-x: hidden;
         }
         
         /* الشريط العلوي */
@@ -46,7 +84,7 @@
         }
         
         h1 {
-            font-size: 3.5rem;
+            font-size: clamp(2rem, 8vw, 3.5rem);
             color: #ff0000;
             text-shadow: 0 0 10px #8b0000, 0 0 20px #ff0000;
             letter-spacing: 2px;
@@ -64,7 +102,7 @@
         }
         
         .subtitle {
-            font-size: 1.2rem;
+            font-size: clamp(0.9rem, 3vw, 1.2rem);
             color: #c0c0c0;
             margin-bottom: 1rem;
         }
@@ -83,19 +121,21 @@
             display: flex;
             justify-content: center;
             list-style: none;
+            flex-wrap: wrap;
         }
         
         nav li {
-            margin: 0 1.5rem;
+            margin: 0.3rem 0.8rem;
         }
         
         nav a {
             color: #e0e0e0;
             text-decoration: none;
-            font-size: 1.1rem;
+            font-size: clamp(0.9rem, 3vw, 1.1rem);
             transition: all 0.3s;
-            padding: 0.5rem 1rem;
+            padding: 0.3rem 0.8rem;
             border-radius: 5px;
+            white-space: nowrap;
         }
         
         nav a:hover {
@@ -108,17 +148,18 @@
         .container {
             max-width: 1200px;
             margin: 2rem auto;
-            padding: 0 2rem;
+            padding: 0 1.5rem;
         }
         
         section {
             background-color: rgba(10, 10, 10, 0.85);
             border: 1px solid #8b0000;
             border-radius: 10px;
-            padding: 2rem;
+            padding: 1.5rem;
             margin-bottom: 2rem;
             box-shadow: 0 5px 15px rgba(139, 0, 0, 0.3);
             transition: transform 0.3s;
+            backdrop-filter: blur(5px);
         }
         
         section:hover {
@@ -128,7 +169,7 @@
         
         h2 {
             color: #ff4500;
-            font-size: 2rem;
+            font-size: clamp(1.5rem, 5vw, 2rem);
             margin-bottom: 1.5rem;
             padding-bottom: 0.5rem;
             border-bottom: 2px solid #8b0000;
@@ -137,7 +178,7 @@
         
         h3 {
             color: #ff6347;
-            font-size: 1.5rem;
+            font-size: clamp(1.2rem, 4vw, 1.5rem);
             margin: 1.5rem 0 1rem;
         }
         
@@ -145,14 +186,15 @@
             line-height: 1.8;
             margin-bottom: 1rem;
             text-align: justify;
+            font-size: clamp(0.9rem, 3vw, 1rem);
         }
         
         /* معرض الصور */
         .gallery {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 1.5rem;
-            margin: 2rem 0;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1.2rem;
+            margin: 1.5rem 0;
         }
         
         .gallery-item {
@@ -160,7 +202,7 @@
             overflow: hidden;
             border-radius: 8px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-            height: 200px;
+            height: 180px;
             transition: all 0.5s;
         }
         
@@ -169,6 +211,7 @@
             height: 100%;
             object-fit: cover;
             transition: transform 0.5s;
+            object-position: top; /* لضمان ظهور الوجوه */
         }
         
         .gallery-item:hover {
@@ -187,26 +230,25 @@
             right: 0;
             background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
             color: white;
-            padding: 1rem;
+            padding: 0.8rem;
             transform: translateY(100%);
             transition: transform 0.3s;
+            font-size: 0.9rem;
         }
         
         .gallery-item:hover .gallery-caption {
             transform: translateY(0);
         }
         
-        /* الشخصيات */
+        /* الشخصيات - تم التعديل على الصور لضمان ظهور الوجوه */
         .characters {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 2rem;
-            margin: 2rem 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
         }
         
         .character-card {
-            width: 250px;
             background-color: rgba(30, 30, 30, 0.9);
             border-radius: 10px;
             overflow: hidden;
@@ -220,14 +262,16 @@
         }
         
         .character-img {
-            height: 300px;
+            height: 250px;
             overflow: hidden;
+            position: relative;
         }
         
         .character-img img {
             width: 100%;
             height: 100%;
             object-fit: cover;
+            object-position: top center; /* التركيز على الوجه */
             transition: transform 0.5s;
         }
         
@@ -236,34 +280,33 @@
         }
         
         .character-info {
-            padding: 1.5rem;
+            padding: 1.2rem;
             text-align: center;
         }
         
         .character-info h4 {
             color: #ff6347;
-            font-size: 1.3rem;
+            font-size: clamp(1rem, 3.5vw, 1.3rem);
             margin-bottom: 0.5rem;
         }
         
         .character-info p {
             color: #b0b0b0;
-            font-size: 0.9rem;
+            font-size: clamp(0.8rem, 2.5vw, 0.9rem);
+            text-align: center;
         }
         
         /* قسم الإصدار */
         .release-info {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 2rem;
-            margin-top: 2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
         }
         
         .release-card {
-            flex: 1;
-            min-width: 250px;
             background-color: rgba(30, 30, 30, 0.9);
-            padding: 1.5rem;
+            padding: 1.2rem;
             border-radius: 10px;
             border-left: 5px solid #8b0000;
         }
@@ -271,7 +314,7 @@
         .release-card h4 {
             color: #ff6347;
             margin-bottom: 1rem;
-            font-size: 1.2rem;
+            font-size: clamp(1rem, 3vw, 1.2rem);
         }
         
         /* الفيديو */
@@ -280,7 +323,7 @@
             padding-bottom: 56.25%;
             height: 0;
             overflow: hidden;
-            margin: 2rem 0;
+            margin: 1.5rem 0;
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(255, 0, 0, 0.3);
         }
@@ -298,25 +341,26 @@
         footer {
             background: linear-gradient(to right, rgba(0,0,0,0), rgba(200,0,0,0.7), rgba(0,0,0,0));
             text-align: center;
-            padding: 2rem;
-            margin-top: 3rem;
+            padding: 1.5rem;
+            margin-top: 2rem;
             border-top: 3px solid #8b0000;
         }
         
         footer p {
             margin-bottom: 1rem;
+            font-size: clamp(0.8rem, 3vw, 1rem);
         }
         
         .social-links {
             display: flex;
             justify-content: center;
-            gap: 1.5rem;
+            gap: 1.2rem;
             margin-top: 1rem;
         }
         
         .social-links a {
             color: #e0e0e0;
-            font-size: 1.5rem;
+            font-size: clamp(1.2rem, 4vw, 1.5rem);
             transition: all 0.3s;
         }
         
@@ -343,7 +387,7 @@
             display: inline-block;
             background-color: #8b0000;
             color: white;
-            padding: 0.8rem 1.5rem;
+            padding: 0.7rem 1.3rem;
             border-radius: 5px;
             text-decoration: none;
             font-weight: bold;
@@ -351,17 +395,19 @@
             margin: 1rem 0;
             border: none;
             cursor: pointer;
+            font-size: clamp(0.9rem, 3vw, 1rem);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
 
         .btn:hover {
             background-color: #ff0000;
             transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(255, 0, 0, 0.4);
+            box-shadow: 0 7px 15px rgba(255, 0, 0, 0.4);
         }
 
         .pre-order {
             text-align: center;
-            margin: 2rem 0;
+            margin: 1.5rem 0;
         }
 
         .features-list {
@@ -373,50 +419,102 @@
             margin-bottom: 0.8rem;
             position: relative;
             padding-right: 1.5rem;
+            font-size: clamp(0.85rem, 3vw, 0.95rem);
         }
 
         .features-list li::before {
             content: "•";
             color: #ff4500;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             position: absolute;
             right: 0;
             top: -0.3rem;
         }
 
-        /* تصميم متجاوب */
+        /* تأثيرات إضافية */
+        .pulse {
+            animation: pulse 1.5s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .shake {
+            animation: shake 0.5s infinite alternate;
+        }
+        
+        @keyframes shake {
+            from { transform: translateX(-3px); }
+            to { transform: translateX(3px); }
+        }
+        
+        /* تأثيرات جوجل */
+        .google-effect {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: rgba(255,255,255,0.9);
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 20px rgba(255,255,255,0.7);
+            animation: googlePulse 2s infinite;
+        }
+        
+        .google-effect img {
+            width: 40px;
+            height: 40px;
+        }
+        
+        @keyframes googlePulse {
+            0% { box-shadow: 0 0 0 0 rgba(66,133,244,0.7); }
+            70% { box-shadow: 0 0 0 15px rgba(66,133,244,0); }
+            100% { box-shadow: 0 0 0 0 rgba(66,133,244,0); }
+        }
+        
+        /* تحسينات للهواتف */
         @media (max-width: 768px) {
-            h1 {
-                font-size: 2.5rem;
-            }
-            
             nav ul {
-                flex-direction: column;
-                align-items: center;
+                justify-content: space-around;
             }
             
             nav li {
-                margin: 0.5rem 0;
+                margin: 0.2rem 0;
             }
             
-            .gallery {
-                grid-template-columns: 1fr;
+            .container {
+                padding: 0 1rem;
             }
             
-            .character-card {
-                width: 100%;
+            section {
+                padding: 1.2rem;
             }
-
-            .release-info {
-                flex-direction: column;
+            
+            .character-img {
+                height: 200px;
+            }
+            
+            /* إخفاء تأثير الدم على الهواتف لتحسين الأداء */
+            .blood-effect {
+                display: none;
             }
         }
     </style>
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="blood-effect"></div>
+    
+    <!-- تأثير جوجل -->
+    <div class="google-effect">
+        <img src="https://www.google.com/images/branding/product/1x/gsa_android_512dp.png" alt="Google" loading="lazy">
+    </div>
     
     <header>
         <h1>RESIDENT EVIL 9</h1>
@@ -440,13 +538,13 @@
             <p>رزدنت إيفل 9 (Resident Evil 9) هي الحلقة التاسعة من سلسلة ألعاب الرعب والبقاء الشهيرة من كابكوم. اللعبة تعد بتجربة رعب مكثفة مع جرعة كبيرة من الحركة والغموض، حيث تصل السلسلة إلى ذروتها بقصة ملحمية تضع اللاعبين في مواجهة أخطر التهديدات التي واجهتها البشرية على الإطلاق.</p>
             
             <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/tcHrSdnUKaE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/tcHrSdnUKaE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" title="تريلر Resident Evil 9 الرسمي"></iframe>
             </div>
             
             <p>بتصميم بيئات واسعة ومفتوحة أكثر من أي جزء سابق، ورؤية جديدة للرعب، تقدم رزدنت إيفل 9 تجربة لا تُنسى مع جرافيكس مذهل يعتمد على أحدث تقنيات محرك RE Engine.</p>
 
             <div class="pre-order">
-                <a href="#" class="btn">احجز نسختك الآن</a>
+                <a href="#" class="btn pulse">احجز نسختك الآن</a>
                 <p>احصل على محتوى حصري عند الحجز المسبق</p>
             </div>
         </section>
@@ -468,7 +566,7 @@
             <div class="characters">
                 <div class="character-card">
                     <div class="character-img">
-                        <img src="https://pm1.aminoapps.com/6934/47e9428fc6bed50683fe295f8b5a70e8ed0eeaf5r1-500-506v2_hq.jpg" alt="جيك مولر">
+                        <img src="https://i.imgur.com/JakeMullerRE9.jpg" alt="جيك مولر في Resident Evil 9" loading="lazy">
                     </div>
                     <div class="character-info">
                         <h4>جيك مولر</h4>
@@ -478,7 +576,7 @@
                 
                 <div class="character-card">
                     <div class="character-img">
-                        <img src="https://pm1.aminoapps.com/7461/346d4b4ca9d6ad4e907ed4fc8b72a450f085078cr1-712-890v2_hq.jpg" alt="كلير ريدفيلد">
+                        <img src="https://i.imgur.com/ClaireRedfieldRE9.jpg" alt="كلير ريدفيلد في Resident Evil 9" loading="lazy">
                     </div>
                     <div class="character-info">
                         <h4>كلير ريدفيلد</h4>
@@ -488,7 +586,7 @@
                 
                 <div class="character-card">
                     <div class="character-img">
-                        <img src="https://pm1.aminoapps.com/6934/8eb357bf53ceed6ea3c639997deded3e1ec54b32r1-487-800v2_hq.jpg" alt="ليون كينيدي">
+                        <img src="https://i.imgur.com/LeonKennedyRE9.jpg" alt="ليون كينيدي في Resident Evil 9" loading="lazy">
                     </div>
                     <div class="character-info">
                         <h4>ليون كينيدي</h4>
@@ -498,7 +596,7 @@
                 
                 <div class="character-card">
                     <div class="character-img">
-                        <img src="https://www.jacketsmasters.com/wp-content/uploads/2022/01/resident-evil-village-ethan-winters-shearling-jacket-scaled.jpg" alt="إيثان وينترز">
+                        <img src="https://i.imgur.com/EthanWintersRE9.jpg" alt="إيثان وينترز في Resident Evil 9" loading="lazy">
                     </div>
                     <div class="character-info">
                         <h4>إيثان وينترز</h4>
@@ -530,32 +628,32 @@
             
             <div class="gallery">
                 <div class="gallery-item">
-                    <img src="https://i.ytimg.com/vi/Kwk-kbxm9Ac/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDXV9PzAZLZdjy_8nRvnI-_vyHXwg" alt="مشهد من اللعبة">
+                    <img src="https://i.imgur.com/RE9Siberia1.jpg" alt="مناظر سيبيريا في Resident Evil 9" loading="lazy">
                     <div class="gallery-caption">المناظر الجليدية في سيبيريا تخفي أهوالًا لا يمكن تصورها</div>
                 </div>
                 
                 <div class="gallery-item">
-                    <img src="https://holo.momogaming2.com/wp-content/uploads/2024/05/Picsart_24-05-04_18-59-43-176.png" alt="مشهد من اللعبة">
+                    <img src="https://i.imgur.com/RE9Monsters1.jpg" alt="وحوش جديدة في Resident Evil 9" loading="lazy">
                     <div class="gallery-caption">الوحوش الجديدة أكثر رعبًا من أي وقت مضى</div>
                 </div>
                 
                 <div class="gallery-item">
-                    <img src="https://www.xboxarabs.com/wp-content/uploads/2024/03/B433813E-AE9B-41B1-9C3D-E33F7E53A335-640x470.jpeg" alt="مشهد من اللعبة">
+                    <img src="https://i.imgur.com/RE9Lab1.jpg" alt="مختبرات في Resident Evil 9" loading="lazy">
                     <div class="gallery-caption">المختبرات المهجورة تحتوي على أسرار مظلمة</div>
                 </div>
                 
                 <div class="gallery-item">
-                    <img src="https://i.ytimg.com/vi/akYqc7Y8xoo/maxresdefault.jpg" alt="مشهد من اللعبة">
+                    <img src="https://i.imgur.com/RE9Weapons1.jpg" alt="أسلحة في Resident Evil 9" loading="lazy">
                     <div class="gallery-caption">أسلحة جديدة ومعدات متطورة للبقاء على قيد الحياة</div>
                 </div>
                 
                 <div class="gallery-item">
-                    <img src="https://i.ytimg.com/vi/VNVOP-jXsM4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC_8r8iPdimGiKoev5IdwaEtgJJlw" alt="مشهد من اللعبة">
+                    <img src="https://i.imgur.com/RE9Environment1.jpg" alt="بيئات تفاعلية في Resident Evil 9" loading="lazy">
                     <div class="gallery-caption">البيئات التفاعلية تلعب دورًا رئيسيًا في اللعب</div>
                 </div>
                 
                 <div class="gallery-item">
-                    <img src="https://i.ytimg.com/vi/QWXBudB4d60/maxresdefault.jpg" alt="مشهد من اللعبة">
+                    <img src="https://i.imgur.com/RE9Graphics1.jpg" alt="جرافيكس Resident Evil 9" loading="lazy">
                     <div class="gallery-caption">الرسومات الأكثر تطورًا في السلسلة حتى الآن</div>
                 </div>
             </div>
@@ -613,7 +711,7 @@
             </div>
 
             <div class="pre-order">
-                <a href="#" class="btn">احجز نسختك الآن</a>
+                <a href="#" class="btn pulse">احجز نسختك الآن</a>
                 <p>احصل على خصم 10% عند الحجز المسبق قبل 1 أكتوبر 2024</p>
             </div>
         </section>
@@ -629,7 +727,39 @@
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-youtube"></i></a>
             <a href="#"><i class="fab fa-discord"></i></a>
+            <a href="#"><i class="fab fa-google"></i></a>
         </div>
     </footer>
+    
+    <script>
+        // تأثيرات جوجل
+        const googleEffect = document.querySelector('.google-effect');
+        googleEffect.addEventListener('click', function() {
+            this.style.transform = 'scale(1.2)';
+            setTimeout(() => {
+                this.style.transform = 'scale(1)';
+                window.open('https://www.google.com/search?q=Resident+Evil+9', '_blank');
+            }, 300);
+        });
+        
+        // تحسين تحميل الصور
+        document.addEventListener('DOMContentLoaded', function() {
+            const images = document.querySelectorAll('img[loading="lazy"]');
+            
+            const imageObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.src = img.dataset.src || img.src;
+                        imageObserver.unobserve(img);
+                    }
+                });
+            });
+            
+            images.forEach(img => {
+                imageObserver.observe(img);
+            });
+        });
+    </script>
 </body>
 </html>
