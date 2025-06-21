@@ -1,46 +1,66 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <!-- بيانات التعريف الأساسية -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resident Evil 9 - رزدنت إيفل 9: تاريخ الإصدار، القصة، الشخصيات، وأحدث الأخبار</title>
-    <meta name="description" content="الموقع العربي الرسمي لـ Resident Evil 9 (رزدنت إيفل 9). تعرف على موعد النزول، قصة اللعبة، أبرز الشخصيات، مشاهدة التريلر، ومتطلبات التشغيل للـ PS5 و Xbox Series X و PC.">
-    <meta name="keywords" content="رزدنت إيفل 9, Resident Evil 9, تاريخ الإصدار, تريلر, قصة, شخصيات, PS5, Xbox Series X, PC, كابكوم, رعب, ألعاب">
-    
-    <!-- تحقق جوجل -->
+    <!-- أضف هذه الأسطر في قسم <head> -->
+<meta name="description" content="الموقع الرسمي لـ Resident Evil 9 (رزدنت إيفل 9) - تعرف على موعد الإصدار، القصة الكاملة، الشخصيات، معرض الصور، متطلبات النظام وأحدث الأخبار عن اللعبة الأكثر رعباً في 2024">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="googlebot" content="index,follow">
+<meta property="og:title" content="Resident Evil 9 - رزدنت إيفل 9">
+<meta property="og:description" content="الموقع العربي الشامل عن لعبة الرعب Resident Evil 9 - كل ما تريد معرفته عن الجزء التاسع من السلسلة الأسطورية">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.example.com/resident-evil-9">
+<meta property="og:image" content="https://i.ibb.co/0jQY8LZ/re9-cover.jpg">
+<meta property="og:site_name" content="Resident Evil 9">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Resident Evil 9 - رزدنت إيفل 9">
+<meta name="twitter:description" content="كل المعلومات عن لعبة الرعب Resident Evil 9 - تاريخ الإصدار، القصة، الشخصيات والمزيد">
+<meta name="twitter:image" content="https://i.ibb.co/0jQY8LZ/re9-cover.jpg">
+
+<!-- أضف هذا الكود قبل </head> -->
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap"></noscript>
+
+<!-- أضف هذا الكود قبل </body> -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Resident Evil 9",
+  "url": "https://www.example.com/resident-evil-9",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.example.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "الرئيسية",
+    "item": "https://www.example.com"
+  },{
+    "@type": "ListItem",
+    "position": 2,
+    "name": "ألعاب",
+    "item": "https://www.example.com/games"
+  },{
+    "@type": "ListItem",
+    "position": 3,
+    "name": "Resident Evil 9",
+    "item": "https://www.example.com/resident-evil-9"
+  }]
+}
+</script>
     <meta name="google-site-verification" content="nQczT1To5lV6b6zAtBkl63hyPUHKiFj9vLGiQDSqXQA" />
-    
-    <!-- بيانات منظمة (Schema) -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "VideoGame",
-        "name": "Resident Evil 9",
-        "alternateName": "رزدنت إيفل 9",
-        "description": "الجزء التاسع من سلسلة ألعاب الرعب والبقاء الشهيرة من كابكوم",
-        "genre": ["رعب", "بقاء", "أكشن"],
-        "gamePlatform": ["PlayStation 5", "Xbox Series X", "PC"],
-        "image": "https://i.ytimg.com/vi/tcHrSdnUKaE/maxresdefault.jpg",
-        "developer": {
-            "@type": "Organization",
-            "name": "Capcom"
-        },
-        "releaseDate": "2024-11-03"
-    }
-    </script>
-    
-    <!-- روابط كانونيكال -->
-    <link rel="canonical" href="https://www.example.com/resident-evil-9" />
-    
-    <!-- أيقونات متصفح -->
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    
-    <!-- خطوط وأيقونات -->
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>Resident Evil 9 - رزدنت إيفل 9</title>
     <style>
         /* CSS عام */
         * {
@@ -211,7 +231,6 @@
             height: 100%;
             object-fit: cover;
             transition: transform 0.5s;
-            object-position: top; /* لضمان ظهور الوجوه */
         }
         
         .gallery-item:hover {
@@ -240,7 +259,7 @@
             transform: translateY(0);
         }
         
-        /* الشخصيات - تم التعديل على الصور لضمان ظهور الوجوه */
+        /* الشخصيات */
         .characters {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -264,14 +283,12 @@
         .character-img {
             height: 250px;
             overflow: hidden;
-            position: relative;
         }
         
         .character-img img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            object-position: top center; /* التركيز على الوجه */
             transition: transform 0.5s;
         }
         
@@ -505,20 +522,107 @@
             .blood-effect {
                 display: none;
             }
+            
+            /* تأثيرات خاصة للهواتف */
+            .mobile-only {
+                display: block;
+            }
+            
+            .desktop-only {
+                display: none;
+            }
+        }
+        
+        @media (min-width: 769px) {
+            .mobile-only {
+                display: none;
+            }
+            
+            .desktop-only {
+                display: block;
+            }
+        }
+        
+        /* تحسينات للشاشات الكبيرة */
+        @media (min-width: 1200px) {
+            .container {
+                padding: 0;
+            }
+        }
+        
+        /* تأثير تحميل */
+        .loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            z-index: 9999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .loader-spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #8b0000;
+            border-top: 5px solid transparent;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
+        }
+        
+        .loader-text {
+            color: #ff0000;
+            font-size: 1.2rem;
+            text-shadow: 0 0 5px #ff0000;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* تأثيرات النص */
+        .typing-effect {
+            overflow: hidden;
+            white-space: nowrap;
+            border-right: 3px solid #ff0000;
+            animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+        }
+        
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+        
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: #ff0000 }
         }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <div class="loader" id="loader">
+        <div class="loader-spinner"></div>
+        <div class="loader-text">جاري التحميل...</div>
+    </div>
+    
     <div class="blood-effect"></div>
     
     <!-- تأثير جوجل -->
     <div class="google-effect">
-        <img src="https://www.google.com/images/branding/product/1x/gsa_android_512dp.png" alt="Google" loading="lazy">
+        <img src="https://www.google.com/images/branding/product/1x/gsa_android_512dp.png" alt="Google">
     </div>
     
     <header>
-        <h1>RESIDENT EVIL 9</h1>
-        <p class="subtitle">الرعب يعود بأشد وأعنف حلقة حتى الآن</p>
+        <h1 class="typing-effect">RESIDENT EVIL 9</h1>
+        <p class="subtitle shake">الرعب يعود بأشد وأعنف حلقة حتى الآن</p>
     </header>
     
     <nav>
@@ -538,7 +642,7 @@
             <p>رزدنت إيفل 9 (Resident Evil 9) هي الحلقة التاسعة من سلسلة ألعاب الرعب والبقاء الشهيرة من كابكوم. اللعبة تعد بتجربة رعب مكثفة مع جرعة كبيرة من الحركة والغموض، حيث تصل السلسلة إلى ذروتها بقصة ملحمية تضع اللاعبين في مواجهة أخطر التهديدات التي واجهتها البشرية على الإطلاق.</p>
             
             <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/tcHrSdnUKaE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" title="تريلر Resident Evil 9 الرسمي"></iframe>
+                <iframe src="https://www.youtube.com/embed/tcHrSdnUKaE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             
             <p>بتصميم بيئات واسعة ومفتوحة أكثر من أي جزء سابق، ورؤية جديدة للرعب، تقدم رزدنت إيفل 9 تجربة لا تُنسى مع جرافيكس مذهل يعتمد على أحدث تقنيات محرك RE Engine.</p>
@@ -566,7 +670,7 @@
             <div class="characters">
                 <div class="character-card">
                     <div class="character-img">
-                        <img src="https://i.imgur.com/JakeMullerRE9.jpg" alt="جيك مولر في Resident Evil 9" loading="lazy">
+                        <img src="https://pm1.aminoapps.com/6934/47e9428fc6bed50683fe295f8b5a70e8ed0eeaf5r1-500-506v2_hq.jpg" alt="جيك مولر">
                     </div>
                     <div class="character-info">
                         <h4>جيك مولر</h4>
@@ -576,7 +680,7 @@
                 
                 <div class="character-card">
                     <div class="character-img">
-                        <img src="https://i.imgur.com/ClaireRedfieldRE9.jpg" alt="كلير ريدفيلد في Resident Evil 9" loading="lazy">
+                        <img src="https://pm1.aminoapps.com/7461/346d4b4ca9d6ad4e907ed4fc8b72a450f085078cr1-712-890v2_hq.jpg" alt="كلير ريدفيلد">
                     </div>
                     <div class="character-info">
                         <h4>كلير ريدفيلد</h4>
@@ -586,7 +690,7 @@
                 
                 <div class="character-card">
                     <div class="character-img">
-                        <img src="https://i.imgur.com/LeonKennedyRE9.jpg" alt="ليون كينيدي في Resident Evil 9" loading="lazy">
+                        <img src="https://pm1.aminoapps.com/6934/8eb357bf53ceed6ea3c639997deded3e1ec54b32r1-487-800v2_hq.jpg" alt="ليون كينيدي">
                     </div>
                     <div class="character-info">
                         <h4>ليون كينيدي</h4>
@@ -596,7 +700,7 @@
                 
                 <div class="character-card">
                     <div class="character-img">
-                        <img src="https://i.imgur.com/EthanWintersRE9.jpg" alt="إيثان وينترز في Resident Evil 9" loading="lazy">
+                        <img src="https://www.jacketsmasters.com/wp-content/uploads/2022/01/resident-evil-village-ethan-winters-shearling-jacket-scaled.jpg" alt="إيثان وينترز">
                     </div>
                     <div class="character-info">
                         <h4>إيثان وينترز</h4>
@@ -621,6 +725,11 @@
             
             <h3>الوضع التعاوني</h3>
             <p>لأول مرة في السلسلة الرئيسية، يمكن لصديقين اللعب معًا عبر الإنترنت في حملة كاملة. كل لاعب يتحكم بشخصية مختلفة بمهارات فريدة، ويتطلب التعاون للبقاء على قيد الحياة.</p>
+            
+            <div class="pre-order mobile-only">
+                <a href="#" class="btn">جرب النسخة التجريبية</a>
+                <p>متاحة الآن للهواتف الذكية</p>
+            </div>
         </section>
         
         <section id="gallery">
@@ -628,32 +737,32 @@
             
             <div class="gallery">
                 <div class="gallery-item">
-                    <img src="https://i.imgur.com/RE9Siberia1.jpg" alt="مناظر سيبيريا في Resident Evil 9" loading="lazy">
+                    <img src="https://i.ytimg.com/vi/Kwk-kbxm9Ac/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDXV9PzAZLZdjy_8nRvnI-_vyHXwg" alt="مشهد من اللعبة">
                     <div class="gallery-caption">المناظر الجليدية في سيبيريا تخفي أهوالًا لا يمكن تصورها</div>
                 </div>
                 
                 <div class="gallery-item">
-                    <img src="https://i.imgur.com/RE9Monsters1.jpg" alt="وحوش جديدة في Resident Evil 9" loading="lazy">
+                    <img src="https://holo.momogaming2.com/wp-content/uploads/2024/05/Picsart_24-05-04_18-59-43-176.png" alt="مشهد من اللعبة">
                     <div class="gallery-caption">الوحوش الجديدة أكثر رعبًا من أي وقت مضى</div>
                 </div>
                 
                 <div class="gallery-item">
-                    <img src="https://i.imgur.com/RE9Lab1.jpg" alt="مختبرات في Resident Evil 9" loading="lazy">
+                    <img src="https://www.xboxarabs.com/wp-content/uploads/2024/03/B433813E-AE9B-41B1-9C3D-E33F7E53A335-640x470.jpeg" alt="مشهد من اللعبة">
                     <div class="gallery-caption">المختبرات المهجورة تحتوي على أسرار مظلمة</div>
                 </div>
                 
                 <div class="gallery-item">
-                    <img src="https://i.imgur.com/RE9Weapons1.jpg" alt="أسلحة في Resident Evil 9" loading="lazy">
+                    <img src="https://i.ytimg.com/vi/akYqc7Y8xoo/maxresdefault.jpg" alt="مشهد من اللعبة">
                     <div class="gallery-caption">أسلحة جديدة ومعدات متطورة للبقاء على قيد الحياة</div>
                 </div>
                 
                 <div class="gallery-item">
-                    <img src="https://i.imgur.com/RE9Environment1.jpg" alt="بيئات تفاعلية في Resident Evil 9" loading="lazy">
+                    <img src="https://i.ytimg.com/vi/VNVOP-jXsM4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC_8r8iPdimGiKoev5IdwaEtgJJlw" alt="مشهد من اللعبة">
                     <div class="gallery-caption">البيئات التفاعلية تلعب دورًا رئيسيًا في اللعب</div>
                 </div>
                 
                 <div class="gallery-item">
-                    <img src="https://i.imgur.com/RE9Graphics1.jpg" alt="جرافيكس Resident Evil 9" loading="lazy">
+                    <img src="https://i.ytimg.com/vi/QWXBudB4d60/maxresdefault.jpg" alt="مشهد من اللعبة">
                     <div class="gallery-caption">الرسومات الأكثر تطورًا في السلسلة حتى الآن</div>
                 </div>
             </div>
@@ -732,32 +841,64 @@
     </footer>
     
     <script>
-        // تأثيرات جوجل
-        const googleEffect = document.querySelector('.google-effect');
-        googleEffect.addEventListener('click', function() {
-            this.style.transform = 'scale(1.2)';
-            setTimeout(() => {
-                this.style.transform = 'scale(1)';
-                window.open('https://www.google.com/search?q=Resident+Evil+9', '_blank');
-            }, 300);
+        // إخفاء تأثير التحميل بعد تحميل الصفحة
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.getElementById('loader').style.opacity = '0';
+                setTimeout(function() {
+                    document.getElementById('loader').style.display = 'none';
+                }, 500);
+            }, 1500);
         });
         
-        // تحسين تحميل الصور
+        // تأثيرات إضافية
         document.addEventListener('DOMContentLoaded', function() {
-            const images = document.querySelectorAll('img[loading="lazy"]');
-            
-            const imageObserver = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const img = entry.target;
-                        img.src = img.dataset.src || img.src;
-                        imageObserver.unobserve(img);
+            // تأثير اهتزاز عند التمرير
+            window.addEventListener('scroll', function() {
+                const scrollPosition = window.scrollY;
+                const bloodEffect = document.querySelector('.blood-effect');
+                bloodEffect.style.backgroundPosition = `${scrollPosition * 0.3}px ${scrollPosition * 0.3}px`;
+                
+                // تأثير اهتزاز خفيف للعناصر
+                const sections = document.querySelectorAll('section');
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    
+                    if (scrollPosition > sectionTop - window.innerHeight + sectionHeight * 0.5) {
+                        section.style.transform = 'translateY(-5px)';
+                        setTimeout(() => {
+                            section.style.transform = 'translateY(0)';
+                        }, 300);
                     }
                 });
             });
             
-            images.forEach(img => {
-                imageObserver.observe(img);
+            // تأثيرات جوجل
+            const googleEffect = document.querySelector('.google-effect');
+            googleEffect.addEventListener('click', function() {
+                this.style.transform = 'scale(1.2)';
+                setTimeout(() => {
+                    this.style.transform = 'scale(1)';
+                    window.open('https://www.google.com/search?q=Resident+Evil+9', '_blank');
+                }, 300);
+            });
+            
+            // تأثيرات النص
+            const typingElements = document.querySelectorAll('.typing-effect');
+            typingElements.forEach(el => {
+                const text = el.textContent;
+                el.textContent = '';
+                let i = 0;
+                const typing = setInterval(() => {
+                    if (i < text.length) {
+                        el.textContent += text.charAt(i);
+                        i++;
+                    } else {
+                        clearInterval(typing);
+                        el.style.borderRight = 'none';
+                    }
+                }, 100);
             });
         });
     </script>
