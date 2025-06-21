@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
+    <meta name="google-site-verification" content="nQczT1To5lV6b6zAtBkl63hyPUHKiFj9vLGiQDSqXQA" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resident Evil 9 - رزدنت إيفل 9</title>
